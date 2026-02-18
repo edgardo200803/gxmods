@@ -1,0 +1,17 @@
+nombre = input("ingresa tu nombre: ")
+edad = int(input("ingresa tu edad: "))
+
+if 9 <= edad <= 11:
+    categoria = "junior"
+elif 12 <= edad <= 15:
+    categoria = "secundaria"
+elif 16 <= edad <= 19:
+    categoria = "bachillerato"
+elif 19 <= edad <= 23:
+    categoria = "Universitari@"
+else:
+    print(f"Lo sentimos {nombre},no es posible tu participacion.")
+    exit()
+
+print (f"Bienvenid@ {nombre} al ciclo olimpico de programacion.")
+print (f"participaras en la categoria: {categoria}")

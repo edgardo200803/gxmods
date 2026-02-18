@@ -1,0 +1,6 @@
+contraseña = 12345678
+cant = 8 or 16
+
+while True:
+    contraseña = input("ingrese la contraeña: ")
+    

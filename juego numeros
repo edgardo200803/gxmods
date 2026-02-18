@@ -1,0 +1,22 @@
+
+import random
+
+numero = random.randint (1, 100)
+intentos = 0
+
+while True:
+
+    intento = int(input("adivina el numero (1, 100): "))
+    intentos += 1
+
+    if intento < numero:
+        print ("Más")
+
+    elif intento > numero:
+        print("Menos")
+    else:
+        print("Correcto ")
+        print("Intentos:", intentos)
+        break
+
+

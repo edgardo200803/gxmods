@@ -1,0 +1,12 @@
+nombre = input("ingresa tu nombre: ")
+edad = int(input("ingresa tu edad: "))
+Carrera = (input("ingresa tu carrera: "))
+if Carrera == "LTI", "Licenciado en Administracion", "contador publico"
+
+semestre = int(input("ingresa el semestre que cursas: "))
+semestre = "1 semestre", "2 semestre"; "3 semestre", "4 semestre",  "5 semestre", "6 semestre", "7 semestre", "8 semestre"
+
+while True:
+    semestre < 1 or semestre > 8 
+
+    break 

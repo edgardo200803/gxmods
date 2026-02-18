@@ -1,0 +1,15 @@
+temperatura = input("temperatura: ")
+temperatura = int(temperatura)
+
+#A 30 grados centigrados o mas, vestira "camiseta sin mangas y short"
+if temperatura >=30:
+    print ("playera sin mangas y short")
+#si la temperatura es menor a 30 grados pero mayor a 15 grados vestira "playera y jeans"
+elif temperatura > 15:
+    print ("playera y jeans")
+#si la temperatura es negativa (< 0) usara su "gabardina y calentadores"
+elif temperatura < 0:
+    print ("gabardina y calentadores")
+#si la temperatura es cualquiera, vestira "sueter y pantalon"
+else:
+    print("sueter y pantalon")

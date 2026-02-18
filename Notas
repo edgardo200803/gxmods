@@ -1,0 +1,15 @@
+#leer calificaciones
+logico = int(input("logico: \n"))
+Karel = int(input("Karel: \n"))
+C = int(input("C: \n"))
+
+#determinar el mayor 
+mayor = logico
+
+if Karel > mayor:
+    mayor = Karel
+
+if C > mayor:
+    mayor = C
+
+print("la mayor es", mayor)

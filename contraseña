@@ -1,0 +1,16 @@
+usuario_correcto = "admin"
+contrasena_correcta = "1234"
+
+while True:
+    usuario = input("Ingresa el usuario: ")
+    contrasena = input("Ingresa la contraseña: ")
+
+    if usuario == usuario_correcto and contrasena == contrasena_correcta:
+        print("Acceso concedido")
+        break
+    else:
+        print("Usuario o contraseña incorrectos, Acceso Denegado")
+
+    
+
+
